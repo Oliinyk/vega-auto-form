@@ -787,3 +787,27 @@ p {
 		right: 30px;
 	}
 }
+@media print {
+	.noPrint{
+		display:none;
+	}
+	.container {
+	    max-width: 100%;
+	}
+	.table-title {
+		font-size: 16px;
+		margin: 20px 0 25px;
+	}
+	.table-head p, .table-purchase p {
+		font-size: 16px;
+	}
+	.table-info {
+		padding-right: 0;
+	}
+	.table-info:after {
+		display: none;
+	}
+	.table-info .table-responsive {
+		overflow: hidden;
+	}
+}

@@ -30,7 +30,7 @@
 					<div><p>Транспортна компанія:	<span></span></p></div>
 				</div>
 
-				<div class="table-save">
+				<div class="table-save noPrint">
 					<div class="label-col">
 						<p>Заповніть обов’язкові поля</p>
 					</div>
@@ -57,7 +57,6 @@
 				<div class="table-head">
 					<div><p>Контакти/Коментарі:<span></span></p></div>
 				</div>
-
 
 				<div class="table-info">
 					<div id="document-print-block" class="table-responsive">
@@ -178,11 +177,9 @@
 							</tr>
 						</table>
 					</div>
-
-					<button type="button" class="btn btn-default" onclick="$('#document-print-block').printThis();">Печатать</button>
+					<button type="button" class="btn btn-default noPrint" onclick="window.print();">Печатать</button>
 				</div>
-
-				<div class="viber-holder">
+				<div class="viber-holder noPrint">
 					<p>
 						Для получения информации о доставке запчастей, <a href="#" class="link">подключитесь к нашему viber-боту</a>
 					</p>
@@ -194,11 +191,10 @@
 							<clipPath id="clip0">
 								<rect width="39" height="39" fill="white"/>
 							</clipPath>
-							</defs>
-						</svg>
+						</defs>
+					</svg>
 				</div>
-
-				<div class="link-holder">
+				<div class="link-holder noPrint">
 					<div class="link-holder-col">
 						<ul>
 							<li><a href="#">Автозапчасти новые и БУ в наличии и под заказ</a></li>
@@ -219,15 +215,13 @@
 			</div>
 		</div>
 	</div> 
-
-	<footer class="footer">
+	<footer class="footer noPrint">
 		<div class="container">
 			<p class="text-holder"><a href="#"> VegaCRM </a> - автоматизация бизнес-процессов</p>
 		</div>
 	</footer>
-
 	<!-- call navigation -->
-	<div class="call-nav">
+	<div class="call-nav noPrint">
 		<div class="wrap-anim-btn">
 		  <button type="button" class="call-btn call-ico anim-btn callBtnJs">
 		    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -354,6 +348,5 @@
 	</div>
 
 <script src="assets/js/scripts.min.js"></script>
-<script src="assets/js/printThis.js"></script>
 </body>
 </html>
