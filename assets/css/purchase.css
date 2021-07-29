@@ -123,6 +123,7 @@ p {
 	padding: 0 10px;
 	height: 32px;
 	width: 200px;
+	background-color: #fff;
 }
 .table-save .form-holder select {
 	-moz-appearance:none;
@@ -236,20 +237,20 @@ p {
 .link-holder-col img {
 	width: 100%;
 }
-.footer {
+.footer-dark {
 	background: #343434;
 	font-size: 16px;
 	line-height: 1.5;
 	color: #fff;
 	padding: 0;
 }
-.footer a {
+.footer-dark a {
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
 	padding-right: 5px;
 }
-.footer .text-holder {
+.footer-dark .text-holder {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -383,11 +384,11 @@ p {
     border-color: #000000 transparent transparent transparent;
 }
 .question-ico svg {
-    max-height: 32px;
-    max-width: 32px;
+	max-height: 32px;
+	max-width: 32px;
 }
 .question-ico:hover svg {
-    fill: #03808B;
+	fill: #03808B;
 	stroke: #03808B;
 }
 @keyframes shake {
