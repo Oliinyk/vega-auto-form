@@ -163,6 +163,13 @@ p {
 .table-inner {
 	margin-top: 15px;
 }
+.table-inner .col-ico {
+	display: flex;
+}
+.table-inner .col-ico img {
+	margin-left: 10px;
+	cursor: pointer;
+}
 .viber-holder {
 	background: #7F4DA0;
 	padding: 12px 10px;
